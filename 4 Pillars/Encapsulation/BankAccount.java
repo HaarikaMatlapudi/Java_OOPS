@@ -8,8 +8,12 @@ public class BankAccount {
     }
 
     public void debit(int amount) {
-        balance -= amount;
-        System.out.println("Balance after successful debit: " + balance);
+        if(amount>balance){
+            System.out.prinln("Balance Insufficient:="):
+        }else{
+            balance -= amount;
+            System.out.println("Balance after successful debit: " + balance);
+        }
     }
 
     public void checkBalance() {
