@@ -8,6 +8,8 @@ Can have concrete methods.
 Can have constructors, variables, and static methods.
 Cannot be instantiated.
 
+@Override 
+//The @Override annotation tells the compiler: "Check that this method exists in the parent class (Vehicle) so I can override it."
 
 Interface (100% abstraction in the traditional sense):
 Contains abstract methods by default (Java 8+ also allows default and static methods, and Java 9+ allows private methods).
