@@ -1,0 +1,14 @@
+
+Abstraction:
+Hiding the implementation details and revealing only the functionality to the user.
+
+Abstract Class (0–100% abstraction):
+Can have abstract methods.
+Can have concrete methods.
+Can have constructors, variables, and static methods.
+Cannot be instantiated.
+
+
+Interface (100% abstraction in the traditional sense):
+Contains abstract methods by default (Java 8+ also allows default and static methods, and Java 9+ allows private methods).
+A class implements an interface and provides the method implementations.
