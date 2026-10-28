@@ -18,10 +18,17 @@ public class BankAccount {
 
     public static void main(String[] args) {
 
-        BankAccount ba = new BankAccount();
+        Scanner sc=new Scanner(System.in);
+        BankAccount ba=new BankAccount();
+        
+        System.out.print("Enter amount to credit: ");
+        int credit=sc.nextInt();
+        ba.credit(credit);
+        ba.balance();
 
-        ba.checkBalance();
-        ba.credit(5000);
-        ba.debit(2000);
+        System.out.print("Enter amount to debit: ");
+        int debit=sc.nextInt();
+        ba.debit(debit);
+        ba.balance();
     }
 }
