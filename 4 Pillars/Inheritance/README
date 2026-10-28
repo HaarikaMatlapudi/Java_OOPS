@@ -1,0 +1,5 @@
+Inheritance:
+
+- One class acquiring properties of another class.
+- Code Reuabaility.
+- Where sub-class uses 'extends' keyword to acquire the required properities from its super-class.
