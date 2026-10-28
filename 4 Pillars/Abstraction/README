@@ -1,0 +1,28 @@
+
+Abstraction
+Hiding the implementation details and revealing only the functionality to the user.
+
+Abstract Class (0–100% abstraction):
+- Can have abstract methods.
+- Can have concrete methods.
+- Can have constructors, variables, and static methods.
+- Cannot be instantiated.
+
+
+Interface (100% abstraction in the traditional sense):
+- A class implements an interface and provides the method implementations.
+
+Interface
+│
+├── Cannot Create Object
+├── Supports Abstraction
+├── Supports Multiple Inheritance
+├── Methods are Public and Abstract by Default
+└── Variables are Public Static Final by Default
+
+1. Interface Variables
+Interface variables are implicitly public, static, and final.
+2. Interface Methods
+Interface methods are public and abstract by default.
+
+
