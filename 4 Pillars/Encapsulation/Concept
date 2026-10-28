@@ -1,0 +1,14 @@
+Encapsulation:
+Wrapping data variables and methods into a single unit.
+
+Also known as Data Hiding: Prevents unauthorized or direct external access to internal state.
+
+For example, In Bank Accoutn class,
+- We have taken the private variablle for the balance variable - To ensure the security to the Accoutn from the outsiders, or any one (like unauthorized).
+- This is to make the balance amount - secure
+
+
+How to Achieve Encapsulation? ---> Using Access Modifiers (Public and Private)
+1. Declare class fields/variables as **private**.
+2. Provide **public** getter and setter methods to inspect and modify field values safely.
+
