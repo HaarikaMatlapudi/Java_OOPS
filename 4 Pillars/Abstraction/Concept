@@ -11,6 +11,23 @@ Cannot be instantiated.
 @Override 
 //The @Override annotation tells the compiler: "Check that this method exists in the parent class (Vehicle) so I can override it."
 
+=======================================================================================================================================================
+
 Interface (100% abstraction in the traditional sense):
-Contains abstract methods by default (Java 8+ also allows default and static methods, and Java 9+ allows private methods).
 A class implements an interface and provides the method implementations.
+
+Important Characteristics
+Interface
+│
+├── Cannot Create Object
+├── Supports Abstraction
+├── Supports Multiple Inheritance
+├── Methods are Public and Abstract by Default
+└── Variables are Public Static Final by Default
+
+
+1. Interface Variables
+Interface variables are implicitly public, static, and final.
+2. Interface Methods
+Interface methods are public and abstract by default.
+
